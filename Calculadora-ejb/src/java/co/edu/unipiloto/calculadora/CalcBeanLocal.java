@@ -14,7 +14,14 @@ import javax.ejb.Local;
 @Local
 public interface CalcBeanLocal {
 
-    Integer suma(int valor1, int valor2);
+    Integer suma(int valor11, int valor2);
+    Integer resta(int valor1, int valor2);
+    Integer division(int valor1, int valor2);
+    Integer multiplicacion(int valor1, int valor2);
+    
+    String separar(String cadena);
+    
+
     
     
 }
